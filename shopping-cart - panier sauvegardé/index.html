@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Panier d'achat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+       <div class="container-magasin">      
+            <div class="panier-top">
+                <div class="titre-cart">Best Buy en ligne</div>
+                    <button id="montrer">Panier (<span id="total"></span>)</button>            
+            </div>
+            <div class="items-container">
+                <div class="items">
+                    <!-- généré par le scrip -->
+                </div>
+            </div>
+        </div>
+
+        <div id="container-panier">
+            <div class="panier">
+                <h4>Panier</h4>
+                <div id = "list-panier"></div>
+            </div>
+
+            <div id="caisse">
+
+                <p>Sous total: <span class="soustotal">0</span></p>
+                <p>Taxes (13%): <span class="tax">0</span></p>
+                <p>Total: <span class="totalCaisse">0</span></p>
+            </div>
+
+            <div id="buttons">
+                <button id="btnEffacer">Vider le panier</button>
+                <button id="btnCaisse">Passer à la caisse</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
